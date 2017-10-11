@@ -46,8 +46,8 @@ background:#DCDCDC url(IMAGES/background.png) repeat-x;
   color:#DCDCDC;
 }
 #topmenu .active a, #topmenu .active a:visited, #topmenu .active a:active{
-  color:##4682B4
-  background-color:#B42D0F
+  color:#FFFAF0
+  background-color:#696969
 }
 /*Content*/
 #content {
