@@ -15,6 +15,9 @@ background:##696969 url(IMAGES/background.png) repeat-x;
   font-family:Verdana, Arial, Helvetica, sans-serif;
   color:#2F4F4F;
   }
+
+
+
 /*Header Menu*/
 #topmenu {
   display:block;
@@ -42,7 +45,7 @@ background:##696969 url(IMAGES/background.png) repeat-x;
   color:#DCDCDC;
 }
 #topmenu .active a, #topmenu .active a:visited, #topmenu .active a:active{
-  color:#FFFFFF
+  color:##4682B4
   background-color:#B42D0F
 }
 /*Content*/
@@ -67,7 +70,7 @@ background:##696969 url(IMAGES/background.png) repeat-x;
 	font:Georgia, "Times New Roman", Times, serif; 
 	font-style:italic;}
 h1, h2, h3, h4, h5 {
-	color:#A52A2A;
+	color:##4682B4;
 	font-weight:bold;
 	font-family: Arial, Helvetica, sans-serif;
 }
