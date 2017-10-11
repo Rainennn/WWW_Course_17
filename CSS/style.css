@@ -1,8 +1,6 @@
 body {
-background:red url(IMAGES/background.jpg) repeat-x;
-
+background:#F0F8FF url(IMAGES/background.png) repeat-x;
 }
-
 #wrap {
   width:700px;
   margin:0px auto 15px auto;
