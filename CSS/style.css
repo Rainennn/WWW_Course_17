@@ -1,3 +1,15 @@
+body {
+background:red url(IMAGES/background.jpg) repeat-x;
+
+}
+
+#wrap {
+  width:700px;
+  margin:0px auto 15px auto;
+  font-family:Verdana, Arial, Helvetica, sans-serif;
+  font-size:12px;
+  color:#666666;
+}
 /* Header */
 #header {
   height:242PX;
@@ -5,4 +17,4 @@
   font-family:Verdana, Arial, Helvetica, sans-serif;
   color:#2F4F4F;
   }
-  
+
