@@ -16,7 +16,9 @@ background:##696969 url(IMAGES/background.png) repeat-x;
   color:#2F4F4F;
   }
 
-
+#topbar {
+  height:78px;
+}
 
 /*Header Menu*/
 #topmenu {
