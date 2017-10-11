@@ -11,9 +11,8 @@ background:#DCDCDC url(IMAGES/background.png) repeat-x;
 /* Header */
 #header {
   height:242PX;
-  margin:0px auto 15px auto;
-  font-family:Verdana, Arial, Helvetica, sans-serif;
-  color:#2F4F4F;
+  background:url(IMAGES/header.png) no-repeat left top;
+  clear; both;
   }
 
 #topbar {
