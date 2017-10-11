@@ -39,3 +39,9 @@ background:##696969 url(IMAGES/background.png) repeat-x;
   color:#1E90FF;
 }
 #topmenu a:hover{
+  color:#DCDCDC;
+}
+#topmenu .active a, #topmenu .active a:visited, #topmenu .active a:active{
+  color:#FFFFFF
+  background-color:#B42D0F
+}
