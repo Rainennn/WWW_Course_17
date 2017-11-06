@@ -113,7 +113,9 @@ table {
 }
 
 table, th, td {
-	border: 1px solid grey;
+	border-collapse: separate;
+    	border-spacing: 10px 50px;
+	padding: 10px;
 }
 th {
 	text-align: left;
