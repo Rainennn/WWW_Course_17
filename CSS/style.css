@@ -76,13 +76,15 @@ h1, h2, h3, h4, h5 {
 	font-family: Arial, Helvetica, sans-serif;
 }
 #mainpage h1 {
-	font-size:24px;
+	font-size:30px;
+	text-align:center;
 }
 #mainpage h2 {
 	font-size:18px;
-	padding-top: 20px;
+	padding-top: 24px;
 	padding-bottom: 5px;
 	border-bottom: 1px solid #white;
+	text-align:center;
 }
 #mainpage h3 {
 	font-size:20px;}
