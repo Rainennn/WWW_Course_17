@@ -108,3 +108,10 @@ h1, h2, h3, h4, h5 {
 #topbar{
 	height:78px;
 }
+
+table {
+p {
+    border-left: 6px solid black;
+    background-color: lightgrey;
+}
+}
