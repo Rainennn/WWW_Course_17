@@ -109,7 +109,7 @@ h1, h2, h3, h4, h5 {
 	height:78px;
 }
 
-table {
+table, th, td {
     border-left: 6px solid black;
     background-color: lightgrey;
 }
