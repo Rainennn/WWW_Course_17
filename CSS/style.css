@@ -24,7 +24,7 @@ body {
   display:block;
   list-style:none;
   padding:0 0px opx 278px;
-  float: right;
+  float: left;
   width: 415px;
 }
 #topmenu li {
@@ -35,7 +35,7 @@ body {
   float:left;
   height:28px;
   margin:0px 0px 0px0px;
-  text-decoration:none;
+  text-decoration:bold;
   padding:9px 15px 0px 15px;
   text-align:center;
 }
