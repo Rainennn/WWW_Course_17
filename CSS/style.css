@@ -120,8 +120,3 @@ table, th, td {
 th {
 	text-align: left;
 }
-
-table#t1 {
-	width: 75%;
-	background-color: lightgrey;
-}
