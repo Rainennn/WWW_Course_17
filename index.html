@@ -92,14 +92,45 @@
 	  <li> List 1 </li>
 	  <li> List 2 </li>
   </ul>
+	
+	<canvas id="myCanvas" width="200" height="100" style="border:1px solid #d3d3d3;">
+Your browser does not support the HTML5 canvas tag.</canvas>
+
+<script>
+var c = document.getElementById("myCanvas");
+var ctx = c.getContext("2d");
+
+// Create gradient
+var grd = ctx.createRadialGradient(75,50,5,90,60,100);
+grd.addColorStop(0,"red");
+grd.addColorStop(1,"white");
+
+// Fill with gradient
+ctx.fillStyle = grd;
+ctx.fillRect(10,10,150,80);
+</script>
+
+<canvas id="myCanvas" width="170" height="10" style="border:1px solid #d3d3d3;">
+Your browser does not support the HTML5 canvas tag.</canvas>
+
+<script>
+var c = document.getElementById("myCanvas");
+var ctx = c.getContext("2d");
+
+// Create gradient
+var grd = ctx.createRadialGradient(75,50,5,90,60,100);
+grd.addColorStop(0,"lightblue");
+grd.addColorStop(1,"white");
+
+// Fill with gradient
+ctx.fillStyle = grd;
+ctx.fillRect(0,0,300,200);
+</script>
+	
 </div>
 </div> 
   </div>
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/k4O4XwZo_wM?rel=0" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
-<div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
 
-<img id="drag1" src="img_logo.gif" draggable="true"
-ondragstart="drag(event)" width="336" height="69">
 
 </body>
 </html>
